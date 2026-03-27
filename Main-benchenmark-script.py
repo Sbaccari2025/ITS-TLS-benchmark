@@ -91,7 +91,7 @@ def main():
     with open("final_results.json", "w") as f:
         json.dump(final, f, indent=2)
 
-    print("\nFinal results saved to final_results.json")
+    print("\nFinal results saved to results.json")
 
 
 if __name__ == "__main__":
